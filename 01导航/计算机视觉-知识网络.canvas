@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"idx","type":"file","file":"01导航/计算机视觉-主题索引.md","x":-220,"y":-420,"width":460,"height":520},
+		{"id":"main","type":"file","file":"01导航/计算机视觉发展史学习笔记.md","x":-740,"y":-420,"width":440,"height":520},
+		{"id":"task","type":"file","file":"计算机视觉-学习任务清单.md","x":320,"y":-420,"width":420,"height":520},
+		{"id":"nav","type":"file","file":"知识网络说明.md","x":-1240,"y":720,"width":400,"height":460},
+		{"id":"p1","type":"file","file":"02传统视觉/传统视觉-部分索引.md","x":-740,"y":200,"width":400,"height":440},
+		{"id":"p2","type":"file","file":"04深度学习/深度学习-部分索引.md","x":-260,"y":200,"width":400,"height":440},
+		{"id":"p3","type":"file","file":"03基础模型/基础模型-部分索引.md","x":220,"y":200,"width":400,"height":440},
+		{"id":"p4","type":"file","file":"05专题追踪/专题追踪-部分索引.md","x":700,"y":200,"width":400,"height":440},
+		{"id":"n1","type":"file","file":"02传统视觉/传统视觉时代-1960s至2011.md","x":-740,"y":720,"width":400,"height":460},
+		{"id":"n2","type":"file","file":"04深度学习/深度学习革命-2012至2019.md","x":-260,"y":720,"width":400,"height":460},
+		{"id":"n3","type":"file","file":"03基础模型/视觉基础模型时代-2020至今.md","x":220,"y":720,"width":400,"height":460},
+		{"id":"tpl","type":"file","file":"模板/01内容模板/综述精读模板.md","x":700,"y":720,"width":380,"height":440}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"idx","toNode":"main","fromSide":"left","toSide":"right"},
+		{"id":"e2","fromNode":"idx","toNode":"task","fromSide":"right","toSide":"left"},
+		{"id":"e3","fromNode":"idx","toNode":"p1","fromSide":"bottom","toSide":"top"},
+		{"id":"e4","fromNode":"idx","toNode":"p2","fromSide":"bottom","toSide":"top"},
+		{"id":"e5","fromNode":"idx","toNode":"p3","fromSide":"bottom","toSide":"top"},
+		{"id":"e6","fromNode":"idx","toNode":"p4","fromSide":"bottom","toSide":"top"},
+		{"id":"e7","fromNode":"p1","toNode":"n1","fromSide":"bottom","toSide":"top"},
+		{"id":"e8","fromNode":"p2","toNode":"n2","fromSide":"bottom","toSide":"top"},
+		{"id":"e9","fromNode":"p3","toNode":"n3","fromSide":"bottom","toSide":"top"},
+		{"id":"e10","fromNode":"n1","toNode":"n2","fromSide":"right","toSide":"left"},
+		{"id":"e11","fromNode":"n2","toNode":"n3","fromSide":"right","toSide":"left"},
+		{"id":"e12","fromNode":"p3","toNode":"p4","fromSide":"right","toSide":"left"},
+		{"id":"e13","fromNode":"tpl","toNode":"n3","fromSide":"left","toSide":"right"},
+		{"id":"e14","fromNode":"nav","toNode":"p1","fromSide":"right","toSide":"left"}
+	]
+}
